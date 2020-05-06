@@ -1,0 +1,35 @@
+html {height: 100%;
+}
+
+body {height: 100%;
+    margin: 0;
+}
+
+.page-wrap {
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+header {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: min-content auto min-content;
+    align-items: center; 
+}
+
+.account {
+    width: 120px;
+}
+
+.gear {
+    width: 100px;
+}
+
+main {
+display: grid;
+}
+
+footer {font-size: 32px;
+    background-color: lightgray;
+}
