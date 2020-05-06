@@ -1,7 +1,9 @@
-html {height: 100%;
+html {
+    height: 100%;
 }
 
-body {height: 100%;
+body {
+    height: 100%;
     margin: 0;
 }
 
@@ -27,9 +29,10 @@ header {
 }
 
 main {
-display: grid;
+    display: grid;
 }
 
-footer {font-size: 32px;
+footer {
+    font-size: 32px;
     background-color: lightgray;
 }
